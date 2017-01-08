@@ -1,0 +1,72 @@
+
+
+.container {
+	width: 960px;
+}
+
+#hc-logo {
+	width: 90px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+h1 {
+	letter-spacing: 0.1em;
+}
+
+h3 {
+	margin-top: 10px;
+}
+h4 {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	word-wrap: normal;
+	text-align: center;
+}
+
+h4 a {
+	color: #201013;
+}
+
+h4 a:hover {
+	color: #0000c7;
+	text-decoration: none;
+}
+
+h6 a {
+	color: #201013;
+}
+
+h6 a:hover {
+	color: #0000c7;
+	text-decoration: none;
+
+}
+
+hr {
+	color: #201013;
+	border-width: 3px;
+}
+
+p {
+	color: #201013;
+}
+
+#main-img {
+	max-width: 100%;
+}
+
+.my-work img {
+	padding-left: 5%;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+	.my-work img {
+		padding-left: 0;
+		cursor: pointer;
+	}
+}
