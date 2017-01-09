@@ -5,55 +5,56 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Heather Conley</title>
-	  	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-	  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,300italic' rel='stylesheet'>
+	  	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 	  	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">  
 	  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   		<link rel="stylesheet" href="css/main.css">
+  		<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	  	<script src="bootstrap/js/bootstrap.min.js"></script>	  
 </head>
 <body>
 <div class="app container-fluid">
   	<header class="row">
-  		<div class="col-md-6 col-sm-6 col-xs-12">
+  		<div class="col-md-3 col-sm-6 col-xs-12">
   			<img id="hc-logo" src="images/logo-hc.png" alt="logo" title="logo">
   		</div>
-  		<div class="col-md-6 col-sm-6 col-xs-12 text-uppercase text-right">
+  		<div class="col-md-9 col-sm-6 col-xs-12 text-uppercase text-right">
   			<h1>Heather Conley</h1>
-  			<h3>Front End Web Developer</h3>
+  			<h3 class="job-title">Front End Developer</h3>
+  		</div>
   	</header>
-
-  	<hr>
+  	<div class="row">
+  		<div class="col-md-12">
+  			<hr>
+  		</div>
+  	</div>
 
   	<main>
   		<div class="row">
-  			<div class="col-md-12">
-  				<img class="img-responsive" id="main-img" src="images/computer_keys2.jpg">
-  			</div>
+  			<img class="col-md-12 img-responsive" id="main-img" src="images/computer_keys2.jpg" alt="close view of a computer keyboard">
   		</div>
   		<section>
 	  		<div class="row">
-	  			<div class="col-md-12">
-	  				<h3 >Featured Work</h3>
-	  			</div>
+	  			<h2 class="col-md-12">Featured Work</h2>
 	  		</div>
-	  		<div class="row">
+	  		<div class="row text-center">
 	  			<div class="col-md-4 col-sm-4 my-work">	
 	  				<img src="images/ninja-home-new2.jpg" alt="milk ninja logo" title="milk ninja logo" class="img-responsive" data-toggle="modal" data-target="#modal-milk-ninja">
-	  				<h4 class="text-uppercase"><a href="http://tinyurl.com/milkninja" target="_blank">Milk Ninja</a></h4>
+	  				<h3 class="text-uppercase"><a href="http://tinyurl.com/milkninja" target="_blank">Milk Ninja</a></h3>
 	  				<h6><a href="https://github.com/nursing-station/milk-ninja-js" target="_blank">https://github.com/nursing-station/milk-ninja-js</a></h6>
 
 	  			</div>
 
 	  			<div class="col-md-4 col-sm-4 my-work">	
 	  				<img src="images/game-new2.jpg" alt="picture of cartoon turtle" title="animal action picture" class="img-responsive" data-toggle="modal" data-target="#modal-animal-action">
-	  				<h4 class="text-uppercase"><a href="http://tinyurl.com/hconley-animal-action" target="_blank">Animal Action</a></h4>
+	  				<h3 class="text-uppercase"><a href="http://tinyurl.com/hconley-animal-action" target="_blank">Animal Action</a></h3>
 	  				<h6><a href="https://github.com/hconley6695/Animal_Action" target="_blank">https://github.com/hconley6695/Animal_Action</a></h6>
 
 	  			</div>
 
 	  			<div class="col-md-4 col-sm-4 my-work">	
 	  				<img src="images/boutique2.jpg" alt="women standing in colorful skirts" title="friendlily boutique" class="img-responsive" data-toggle="modal" data-target="#modal-friendlily">
-	  				<h4 class="text-uppercase"><a href="https://hconley6695.github.io/boutique/" target="_blank">Friendlily</a></h4>
+	  				<h3 class="text-uppercase"><a href="https://hconley6695.github.io/boutique/" target="_blank">Friendlily</a></h3>
 	  				<h6><a href="https://github.com/hconley6695/boutique" target="_blank">https://github.com/hconley6695/boutique</a></h6>
 
 	  			</div>
@@ -71,11 +72,7 @@
 			        <p>This web application for mobile devices helps moms find and share locations where they can comfortably feed their ninjas, er, um...babies.
 					</p>
 					<p>Final Project at The Iron Yard. Contributed to the conception of the project, the layout of several pages, the components, and the geolocator request. This project is best viewed on a mobile at <a href="http://tinyurl.com/milkninja" target="_blank"> tinyurl.com/milkninja.</a></p>
-					<p>Languages and Libraries used: JavaScript, SASS, ReactJS</p>
-					<ul class="links">
-						<li><a href="http://tinyurl.com/milkninja" target="_blank">DEMO</a></li>
-						<li><a href="https://github.com/nursing-station/milk-ninja-js" target="_blank">CODE</a></li>
-					</ul>					
+					<p>Languages and Libraries used: JavaScript, SASS, ReactJS</p>			
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -97,11 +94,6 @@
 					</p>
 					<p>Languages and Libraries used: HTML, SASS, jQuery</p>
 					<p>Solo project.</p>
-
-					<ul class="links">
-						<li><a href="http://tiy-2016q1-charlesconley-game2.surge.sh" target="_blank">DEMO </a></li>
-						<li><a href="https://github.com/hconley6695/Animal_Action" target="_blank">CODE</a></li>
-					</ul>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -123,11 +115,6 @@
 					</p>
 					<p>Languages used: HTML and CSS</p>
 					<p>Solo project.</p>
-
-					<ul class="links">
-						<li><a href="https://hconley6695.github.io/boutique/" target="_blank">DEMO </a></li>
-						<li><a href="https://github.com/hconley6695/boutique" target="_blank">CODE</a></li>
-					</ul>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -135,7 +122,6 @@
 			    </div>
 			  </div>
 			</div>
-
 
   		</section>
 

@@ -1,7 +1,8 @@
 
-
-.container {
-	width: 960px;
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #201013;
 }
 
 #hc-logo {
@@ -11,33 +12,35 @@
 }
 
 h1 {
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
+	font-weight: 100;
+	font-size: 60px;
 }
 
-h3 {
-	margin-top: 10px;
-}
-h4 {
-	text-align: center;
+
+h3.job-title {
+	text-align: right;
+	margin-top: 0;
 }
 
 h6 {
-	text-align: center;
 	word-wrap: normal;
-	text-align: center;
 }
 
-h4 a {
+h3 a {
 	color: #201013;
+	font-size: 28px;
+	letter-spacing: 0.05em;
 }
 
-h4 a:hover {
+h3 a:hover {
 	color: #0000c7;
 	text-decoration: none;
 }
 
 h6 a {
 	color: #201013;
+	font-size: 16px;
 }
 
 h6 a:hover {
@@ -47,12 +50,10 @@ h6 a:hover {
 }
 
 hr {
-	color: #201013;
-	border-width: 3px;
-}
-
-p {
-	color: #201013;
+	height: 3px;
+	color: #99cc03;
+	background-color: #99cc03;
+	border: none;
 }
 
 #main-img {
@@ -60,13 +61,6 @@ p {
 }
 
 .my-work img {
-	padding-left: 5%;
 	cursor: pointer;
-}
-
-@media only screen and (max-width: 992px) {
-	.my-work img {
-		padding-left: 0;
-		cursor: pointer;
-	}
+	width: 400px;
 }
