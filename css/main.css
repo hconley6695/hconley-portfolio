@@ -17,6 +17,11 @@ h1 {
 	font-size: 60px;
 }
 
+h2 {
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	font-size: 36px;
+}
 
 h3.job-title {
 	text-align: right;
@@ -41,6 +46,7 @@ h3 a:hover {
 h6 a {
 	color: #201013;
 	font-size: 16px;
+	overflow-wrap: break-word;
 }
 
 h6 a:hover {
@@ -64,3 +70,38 @@ hr {
 	cursor: pointer;
 	width: 400px;
 }
+
+ul.links {
+	list-style: none;
+}	
+
+button.close {
+	border: none;
+	float: right;
+	color: #cccccc;
+	background-color: #ffffff;
+}
+
+button.close span {
+	font-size: 22px;
+}
+
+button.close span:hover {
+	color: #201013;
+}
+
+button.btn {
+	background-color: #ffffff;
+	border: 0.5px solid #cccccc;
+	color: #201013;
+	border-radius: 5px;
+	padding: 8px 12px ;
+}
+
+button.btn:hover {
+	background-color: #e6e6e6;
+}
+
+
+
+
