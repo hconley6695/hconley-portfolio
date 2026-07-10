@@ -62,6 +62,13 @@ hr {
 	border: none;
 }
 
+hr.gray {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
 #main-img {
 	max-width: 100%;
 }
