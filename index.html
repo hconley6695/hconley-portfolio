@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">  
   <title>Portfolio - Heather Conley</title>
   <!-- <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script> -->
-  <script src="https://jquery.com" integrity="sha256-***HASH***" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script> 
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="/favicon.ico" type="/favicon.ico">
   <!-- Hotjar Tracking Code for www.tinyurl.com/heatherconley -->
@@ -20,8 +20,7 @@
 	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 	        a.appendChild(r);
 	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-	</script><script async="" src="//static.hotjar.com/c/hotjar-430539.js?sv=5"></script>
-<script async="" src="https://script.hotjar.com/modules.fa52fb4272e01466771f.js" charset="utf-8"></script>
+	</script>
 </head>
 	
 <body>
@@ -35,11 +34,7 @@
   			<h3 class="job-title">Full Stack Developer</h3>
   		</div>
   	</header>
-  	<div class="row">
-  		<div class="col-md-12">
-  			<hr>
-  		</div>
-  	</div>
+	<hr class="first-hr">
 
   	<main>
   		<div class="row">
@@ -90,10 +85,40 @@
 			        <p>This web application for mobile devices helps moms find and share locations where they can comfortably feed their ninjas, er, um...babies.
 					</p>
 					<p>Final Project at The Iron Yard. Contributed to the conception of the project, the layout of several pages, the components, and the geolocator request. This project is best viewed on a mobile at <a href="http://tinyurl.com/milkninja" target="_blank"> tinyurl.com/milkninja.</a></p>
-					<p>Languages and Libraries used: JavaScript, SASS, ReactJS</p>			
+					<p>Languages and Libraries used: JavaScript, SASS, ReactJS</p>	
+					<p>Username: Mary<br/>Password: password</p>
+					<ul class="links">
+						<li><a href="http://tinyurl.com/milkninja" target="_blank">DEMO</a></li>
+						<li><a href="https://github.com/nursing-station/milk-ninja-js" target="_blank">CODE</a></li>
+					</ul>			
 			      </div>
 			      <div class="modal-footer">
-			        <button type="button" class="btn" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade" id="modal-neighborhood" tabindex="-1" role="dialog" aria-labelledby="modal-title-neighborhood">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="modal-title-neighborhood">Atlanta Neighborhood Map</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>Web app that lists popular restaurants, shopping and sites in Atlanta.
+					</p>
+					<p>Languages and Libraries used: Javascript, CSS, HTML, Knockout.js, Google Map APIs, Foursquare API</p>
+					<p>Solo project.</p>
+
+					<ul class="links">
+						<li><a href="https://hconley6695.github.io/neighborhood-map/" target="_blank">DEMO </a></li>
+						<li><a href="https://github.com/hconley6695/neighborhood-map" target="_blank">CODE</a></li>
+					</ul>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			      </div>
 			    </div>
 			  </div>
@@ -133,16 +158,20 @@
 					</p>
 					<p>Languages used: HTML and CSS</p>
 					<p>Solo project.</p>
+					<ul class="links">
+						<li><a href="https://hconley6695.github.io/boutique/" target="_blank">DEMO </a></li>
+						<li><a href="https://github.com/hconley6695/boutique" target="_blank">CODE</a></li>
+					</ul>
 			      </div>
 			      <div class="modal-footer">
-			        <button type="button" class="btn" data-dismiss="modal">Close</button>
+			         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			      </div>
 			    </div>
 			  </div>
 			</div>
 
   		</section>
-		<hr class="gray">
+		<hr>
 
 	  	<section class="about-wrapper">
 	  	   		<div class="row about-title" id="about-id">
@@ -166,7 +195,7 @@
 				</div>	
 		</section>
 
-		<hr class="gray">
+		<hr>
 
 		<section class="contact-wrapper">
 				<div class="row contact-title" id="contact-id">
@@ -186,5 +215,6 @@
   	</main>
 
   </div>
+  <script src="js/bundle.js"></script>
 </body>
 </html>
